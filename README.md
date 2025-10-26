@@ -51,7 +51,7 @@ BrightHR/
 
 ```bash
 git clone https://github.com/doorstep75/brighthr-cypress-automation.git
-cd bright-hr-demo
+cd brighthr-cypress-automation
 ```
 
 ### 2️⃣ Install dependencies
