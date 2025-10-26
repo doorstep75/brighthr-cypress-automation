@@ -1,0 +1,20 @@
+# Node modules – handled via package.json, no need to commit and will be reinstalled with 'npm install'
+node_modules/
+
+# Cypress output – local only, not needed in source control
+cypress/screenshots/
+cypress/videos/
+
+# Env files and logs – can contain local or sensitive info
+.env
+*.log
+cypress.env.json
+
+# macOS + Windows + editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Cypress cache – local run data
+.cypress-cache/
