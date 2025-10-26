@@ -94,9 +94,9 @@ npx cypress open
 
 ### Headless run (not recommended)
 
-'''bash
+```bash
 npx cypress run
-'''
+```
 
 ## 🧪 Current Test Coverage
 
