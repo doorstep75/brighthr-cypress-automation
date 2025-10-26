@@ -50,7 +50,7 @@ BrightHR/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/doorstep75/bright-hr-demo.git
+git clone https://github.com/doorstep75/brighthr-cypress-automation.git
 cd bright-hr-demo
 ```
 
