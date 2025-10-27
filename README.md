@@ -23,12 +23,15 @@ Each test uses a **Page Object Model (POM)** structure for maintainability and s
 BrightHR/
 ├── .vscode/
 │   └── settings.json                → VS Code formatting settings (2 spaces)
+├── docs/                            → Project documentation and QA notes
+│   └── QA-BUGLOG.md                 → Log of test bugs/queries
 ├── cypress/
-│   ├── e2e/                         → Test specs (e.g. employees.cy.ts)
+│   ├── e2e/                         → End-to-end test specs
+│   │   ├── employee-hub.cy.ts       → Contains the core Employee hub tests
 │   ├── fixtures/                    → Static test data (if required)
 │   ├── support/
-│   │   ├── employeesPage.ts         → Page Object: Employee modal actions/assertions
-│   │   ├── dashboardPage.ts         → Page Object: Dashboard layout & navigation
+│   │   ├── employeesPage.ts         → Page Object: Employee modal actions/
+│   │   ├── dashboardPage.ts         → Page Object: Dashboard layout & navigatio
 │   │   ├── loginPage.ts             → Login and authentication helpers
 │   │   ├── data/
 │   │   │   └── namePool.ts          → Simple random name/email generators
@@ -139,7 +142,7 @@ npx cypress run
 
 ## 🧹 Code Formatting and Linting
 
-This project uses Prettier and VS Code workspace settings to keep formatting consistent.
+This project uses Prettier and VS Code workspace settings to keep formatting consistent. The .vscode folder has been allowed therefore to assist with demos.
 
 ### Configuration files
 

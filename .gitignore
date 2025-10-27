@@ -10,11 +10,10 @@ cypress/videos/
 *.log
 cypress.env.json
 
-# macOS + Windows + editor junk
+# macOS + Windows + editor junk (allowing vscode for demo purposes)
 .DS_Store
 Thumbs.db
 desktop.ini
-.vscode/
 
 # Cypress cache – local run data
 .cypress-cache/
