@@ -36,7 +36,8 @@ BrightHR/
 │   │   ├── data/
 │   │   │   └── namePool.ts          → Simple random name/email generators
 │   │   └── commands.ts              → Custom Cypress commands (optional)
-│
+├── scripts/                         → utility scripts that run during install
+│   └── setup-env.js                 → postinstall script runs a setup message
 ├── .prettierrc                      → Prettier formatting rules 
 ├── cypress.config.ts                → Main Cypress config file
 ├── cypress.env.example.json         → Example env vars (safe to share)
