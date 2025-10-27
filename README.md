@@ -51,7 +51,26 @@ BrightHR/
 
 ## 🧰 Setup Instructions
 
+### 🧩 Prerequisites
+
+Before setting up the project, ensure you have the following installed and available:
+
+- The project path/folder setup on your computer
+- Git (for cloning repositories)
+- Node.js (LTS version, includes npm)
+- A code editor or IDE (note VS Code has been used throughout this project)
+
+Confirm installation with:
+
+```bash
+git --version
+node -v
+npm -v 
+```
+
 ### 1️⃣ Clone the repository
+
+> Use terminal (or equivalent to navigate to your project folder)
 
 ```bash
 git clone https://github.com/doorstep75/brighthr-cypress-automation.git
